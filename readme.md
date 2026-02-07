@@ -14,7 +14,7 @@ End-to-end pipeline for binary classification of EEG-derived spectral features:
 Recommended:
 
 ```
-MLOps/
+EEG Depression Screening/
 mlflow.db                 # created by MLflow UI/backend
 mlartifacts/              # created by MLflow (artifact root)
 models/                   # local checkpoint copies (optional)
@@ -54,7 +54,7 @@ The pipeline:
 ### 1) Create and activate a virtual environment (Windows)
 
 ```powershell
-cd F:\MLOps
+cd F:\EEG Depression Screening
 python -m venv venv
 .\venv\Scripts\activate
 ```
